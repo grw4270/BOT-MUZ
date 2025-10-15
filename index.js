@@ -222,6 +222,7 @@ client.on('guildDelete', guild => {
 
 
 
+
 // ===== KONSOLE =====
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 rl.on('line', async (input) => {
@@ -284,37 +285,43 @@ client.on('interactionCreate', async interaction => {
   const cmd = interaction.commandName;
 
   if (cmd === 'ping') await interaction.reply('🏓 Pong! Bot działa.');
+  
   else if (cmd === 'status') {
-    let text = '--- STATUS ---\n';
-    if (!connectionMap.size) text += 'Brak aktywnych połączeń głosowych.';
-    else for (const [guildId,obj] of connectionMap.entries())
-      text += `Serwer: ${guildId} | Kanał: ${obj.channelId} | Plik: ${obj.currentlyPlayingFile}\n`;
-    
-    // Wyślij DM do użytkownika
-    try {
-      await interaction.user.send(text);
-      await interaction.reply({ content: '✅ Status wysłany w DM.', flags: MessageFlags.Ephemeral });
-    } catch {
-      await interaction.reply({ content: '❌ Nie udało się wysłać DM.', flags: MessageFlags.Ephemeral });
-    }
-  }
-  else if (cmd === 'unmute') {
-    for (const guild of client.guilds.cache.values()) {
+      if (!interaction.deferred && !interaction.replied) {
+          await interaction.deferReply({ ephemeral: true });
+      }
+
+      let text = '--- STATUS ---\n';
+      if (!connectionMap.size) text += 'Brak aktywnych połączeń głosowych.';
+      else for (const [guildId,obj] of connectionMap.entries())
+        text += `Serwer: ${guildId} | Kanał: ${obj.channelId} | Plik: ${obj.currentlyPlayingFile}\n`;
+
       try {
-        const me = guild.members.me ?? await guild.members.fetch(client.user.id);
-        if (me.voice?.channel) await me.voice.setMute(false);
-      } catch {}
-    }
-
-    if (!interaction.deferred && !interaction.replied) {
-      await interaction.deferReply({ flags: MessageFlags.Ephemeral });
-    }
-
-    await interaction.followUp({
-      content: `🔊 Bot odmutowany.`,
-      flags: MessageFlags.Ephemeral
-    });
+          await interaction.user.send(text);
+          await interaction.followUp({ content: '✅ Status wysłany w DM.', ephemeral: true });
+      } catch {
+          await interaction.followUp({ content: '❌ Nie udało się wysłać DM.', ephemeral: true });
+      }
   }
+
+  else if (cmd === 'unmute') {
+      if (!interaction.deferred && !interaction.replied) {
+          await interaction.deferReply({ ephemeral: true });
+      }
+
+      for (const guild of client.guilds.cache.values()) {
+        try {
+          const me = guild.members.me ?? await guild.members.fetch(client.user.id);
+          if (me.voice?.channel) await me.voice.setMute(false);
+        } catch {}
+      }
+
+      await interaction.followUp({
+        content: `🔊 Bot odmutowany.`,
+        ephemeral: true
+      });
+  }
+  
   else if (cmd === 'play') {
     const serverId = interaction.options.getString('server_id');
     const fileName = interaction.options.getString('plik');
@@ -351,19 +358,15 @@ client.on('interactionCreate', async interaction => {
       return;
     }
 
-    // ❌ Nie używaj track/guild z undefined
     const trackName = chosenFile;
     const guildName = chosenGuild.name;
 
-    // ✅ Defer od razu
     if (!interaction.replied && !interaction.deferred) {
       await interaction.deferReply({ flags: MessageFlags.Ephemeral });
     }
 
-    // Uruchomienie muzyki w tle
     playAndLeave(targetChannel, path.join(COM_DIR, chosenFile));
 
-    // Wyślij follow-up po rozpoczęciu odtwarzania
     await interaction.followUp({
       content: `🎵 Odtworzyłem **${trackName}** na serwerze **${guildName}**`,
       flags: MessageFlags.Ephemeral
