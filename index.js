@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { Client, GatewayIntentBits, Partials, Events, REST, Routes, InteractionType, MessageFlags } = require('discord.js');
+const { Partials, Events, InteractionType, MessageFlags } = require('discord.js');
 process.env.DISCORDJS_VOICE_FORCE_WS = "true";
 process.env.FORCE_IPV4 = "true";
 
