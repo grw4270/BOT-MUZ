@@ -1,4 +1,5 @@
 require('dotenv').config();
+const { InteractionResponseFlags } = require('discord.js');
 process.env.DISCORDJS_VOICE_FORCE_WS = "true";
 process.env.FORCE_IPV4 = "true";
 
@@ -298,7 +299,14 @@ client.on('interactionCreate', async interaction => {
         if (me.voice?.channel) await me.voice.setMute(false);
       } catch {}
     }
-    await interaction.reply('🔊 Bot odmutowany.');
+
+    if (!interaction.replied && !interaction.deferred) {
+    await interaction.deferReply({ flags: InteractionResponseFlags.Ephemeral });
+    }
+    await interaction.followUp({
+      content: `🔊 Bot odmutowany.`,
+      flags: InteractionResponseFlags.Ephemeral
+    });
   }
   else if (cmd === 'play') {
     const serverId = interaction.options.getString('server_id');
