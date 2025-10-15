@@ -223,6 +223,7 @@ client.on('guildDelete', guild => {
 
 
 
+
 // ===== KONSOLE =====
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 rl.on('line', async (input) => {
@@ -278,50 +279,28 @@ client.on('voiceStateUpdate', (oldState, newState) => {
 client.on('interactionCreate', async interaction => {
   if (!interaction.isChatInputCommand()) return;
   if (interaction.user.id !== ALLOWED_USER_ID) {
-    await interaction.reply({ content: '⛔ Nie masz uprawnień.', flags: MessageFlags.Ephemeral });
+    await interaction.reply({ content: '⛔ Nie masz uprawnień.', ephemeral: true });
     return;
   }
 
   const cmd = interaction.commandName;
 
   if (cmd === 'ping') await interaction.reply('🏓 Pong! Bot działa.');
-  
   else if (cmd === 'status') {
-      if (!interaction.deferred && !interaction.replied) {
-          await interaction.deferReply({ ephemeral: true });
-      }
-
-      let text = '--- STATUS ---\n';
-      if (!connectionMap.size) text += 'Brak aktywnych połączeń głosowych.';
-      else for (const [guildId,obj] of connectionMap.entries())
-        text += `Serwer: ${guildId} | Kanał: ${obj.channelId} | Plik: ${obj.currentlyPlayingFile}\n`;
-
-      try {
-          await interaction.user.send(text);
-          await interaction.followUp({ content: '✅ Status wysłany w DM.', ephemeral: true });
-      } catch {
-          await interaction.followUp({ content: '❌ Nie udało się wysłać DM.', ephemeral: true });
-      }
+    let text = '--- STATUS ---\n';
+    if (!connectionMap.size) text += 'Brak aktywnych połączeń głosowych.';
+    else for (const [guildId,obj] of connectionMap.entries()) text += `Serwer: ${guildId} | Kanał: ${obj.channelId} | Plik: ${obj.currentlyPlayingFile}\n`;
+    await interaction.reply({ content: '✅ Status wysłany w DM.', ephemeral: true });
   }
-
   else if (cmd === 'unmute') {
-      if (!interaction.deferred && !interaction.replied) {
-          await interaction.deferReply({ ephemeral: true });
-      }
-
-      for (const guild of client.guilds.cache.values()) {
-        try {
-          const me = guild.members.me ?? await guild.members.fetch(client.user.id);
-          if (me.voice?.channel) await me.voice.setMute(false);
-        } catch {}
-      }
-
-      await interaction.followUp({
-        content: `🔊 Bot odmutowany.`,
-        ephemeral: true
-      });
+    for (const guild of client.guilds.cache.values()) {
+      try {
+        const me = guild.members.me ?? await guild.members.fetch(client.user.id);
+        if (me.voice?.channel) await me.voice.setMute(false);
+      } catch {}
+    }
+    await interaction.reply('🔊 Bot odmutowany.');
   }
-  
   else if (cmd === 'play') {
     const serverId = interaction.options.getString('server_id');
     const fileName = interaction.options.getString('plik');
@@ -335,13 +314,13 @@ client.on('interactionCreate', async interaction => {
     }
 
     if (!chosenGuild) {
-      await interaction.reply({ content: '❌ Brak dostępnego serwera.', flags: MessageFlags.Ephemeral });
+      await interaction.reply({ content: '❌ Brak dostępnego serwera.', ephemeral: true });
       return;
     }
 
     const chosenFile = fileName || comFiles[0];
     if (!chosenFile) {
-      await interaction.reply({ content: '❌ Brak plików MP3 w Folderze komentarzy', flags: MessageFlags.Ephemeral });
+      await interaction.reply({ content: '❌ Brak plików MP3 w music/com.', ephemeral: true });
       return;
     }
 
@@ -354,34 +333,13 @@ client.on('interactionCreate', async interaction => {
     }
 
     if (!targetChannel) {
-      await interaction.reply({ content: '❌ Brak aktywnych kanałów głosowych.', flags: MessageFlags.Ephemeral });
+      await interaction.reply({ content: '❌ Brak aktywnych kanałów głosowych.', ephemeral: true });
       return;
     }
 
-    const trackName = chosenFile;
-    const guildName = chosenGuild.name;
-
-    if (!interaction.replied && !interaction.deferred) {
-      await interaction.deferReply({ flags: MessageFlags.Ephemeral });
-    }
-
     playAndLeave(targetChannel, path.join(COM_DIR, chosenFile));
-
-    await interaction.followUp({
-      content: `🎵 Odtworzyłem **${trackName}** na serwerze **${guildName}**`,
-      flags: MessageFlags.Ephemeral
-    });
+    await interaction.reply({ content: `🎵 Odtwarzam **${chosenFile}** na serwerze **${chosenGuild.name}**`, ephemeral: true });
   }
 });
 
 client.login(TOKEN);
-
-client.on('error', (err) => {
-  console.error('Client error:', err);
-});
-process.on('unhandledRejection', (reason, p) => {
-  console.error('Unhandled Rejection at:', p, 'reason:', reason);
-});
-process.on('uncaughtException', (err) => {
-  console.error('Uncaught Exception:', err);
-});
