@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { InteractionResponseFlags } = require('discord.js');
+const { Client, GatewayIntentBits, Partials, Events, REST, Routes, InteractionType, MessageFlags } = require('discord.js');
 process.env.DISCORDJS_VOICE_FORCE_WS = "true";
 process.env.FORCE_IPV4 = "true";
 
@@ -279,7 +279,7 @@ client.on('voiceStateUpdate', (oldState, newState) => {
 client.on('interactionCreate', async interaction => {
   if (!interaction.isChatInputCommand()) return;
   if (interaction.user.id !== ALLOWED_USER_ID) {
-    await interaction.reply({ content: '⛔ Nie masz uprawnień.', flags: InteractionResponseFlags.Ephemeral });
+    await interaction.reply({ content: '⛔ Nie masz uprawnień.', flags: MessageFlags.Ephemeral });
     return;
   }
 
@@ -290,7 +290,7 @@ client.on('interactionCreate', async interaction => {
     let text = '--- STATUS ---\n';
     if (!connectionMap.size) text += 'Brak aktywnych połączeń głosowych.';
     else for (const [guildId,obj] of connectionMap.entries()) text += `Serwer: ${guildId} | Kanał: ${obj.channelId} | Plik: ${obj.currentlyPlayingFile}\n`;
-    await interaction.reply({ content: '✅ Status wysłany w DM.', flags: InteractionResponseFlags.Ephemeral });
+    await interaction.reply({ content: '✅ Status wysłany w DM.', flags: MessageFlags.Ephemeral });
   }
   else if (cmd === 'unmute') {
     for (const guild of client.guilds.cache.values()) {
@@ -301,11 +301,11 @@ client.on('interactionCreate', async interaction => {
     }
 
     if (!interaction.replied && !interaction.deferred) {
-    await interaction.deferReply({ flags: InteractionResponseFlags.Ephemeral });
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
     }
     await interaction.followUp({
       content: `🔊 Bot odmutowany.`,
-      flags: InteractionResponseFlags.Ephemeral
+      flags: MessageFlags.Ephemeral
     });
   }
   else if (cmd === 'play') {
@@ -321,13 +321,13 @@ client.on('interactionCreate', async interaction => {
     }
 
     if (!chosenGuild) {
-      await interaction.reply({ content: '❌ Brak dostępnego serwera.', flags: InteractionResponseFlags.Ephemeral });
+      await interaction.reply({ content: '❌ Brak dostępnego serwera.', flags: MessageFlags.Ephemeral });
       return;
     }
 
     const chosenFile = fileName || comFiles[0];
     if (!chosenFile) {
-      await interaction.reply({ content: '❌ Brak plików MP3 w Folderze komentarzy', flags: InteractionResponseFlags.Ephemeral });
+      await interaction.reply({ content: '❌ Brak plików MP3 w Folderze komentarzy', flags: MessageFlags.Ephemeral });
       return;
     }
 
@@ -340,16 +340,16 @@ client.on('interactionCreate', async interaction => {
     }
 
     if (!targetChannel) {
-      await interaction.reply({ content: '❌ Brak aktywnych kanałów głosowych.', flags: InteractionResponseFlags.Ephemeral });
+      await interaction.reply({ content: '❌ Brak aktywnych kanałów głosowych.', flags: MessageFlags.Ephemeral });
       return;
     }
 
     playAndLeave(targetChannel, path.join(COM_DIR, chosenFile));
     if (interaction.replied || interaction.deferred) return;
-    await interaction.deferReply({ flags: InteractionResponseFlags.Ephemeral });
+    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
     await interaction.followUp({
       content: `🎵 Odtwarzam **${track}** na serwerze **${guild}**`,
-      flags: InteractionResponseFlags.Ephemeral
+      flags: MessageFlags.Ephemeral
     });
   }
 });
