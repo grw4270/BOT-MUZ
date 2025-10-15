@@ -1,4 +1,4 @@
-// require('dotenv').config();
+require('dotenv').config();
 process.env.DISCORDJS_VOICE_FORCE_WS = "true";
 process.env.FORCE_IPV4 = "true";
 
@@ -10,8 +10,8 @@ const readline = require('readline');
 const { Client, GatewayIntentBits, ActionRowBuilder, StringSelectMenuBuilder, ComponentType } = require('discord.js');
 const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayerStatus, NoSubscriberBehavior, getVoiceConnection } = require('@discordjs/voice');
 
-const TOKEN = 'dfg';
-const ALLOWED_USER_ID = '562007602163351603';
+const TOKEN = process.env.DISCORD_TOKEN;
+const ALLOWED_USER_ID = process.env.ALLOWED_USER_ID; // ID użytkownika, który może używać komend
 
 const MUSIC_DIR = path.join(__dirname, 'music');
 const DEFAULT_DIR = path.join(MUSIC_DIR, 'default');
