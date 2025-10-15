@@ -344,11 +344,21 @@ client.on('interactionCreate', async interaction => {
       return;
     }
 
+    // ❌ Nie używaj track/guild z undefined
+    const trackName = chosenFile;
+    const guildName = chosenGuild.name;
+
+    // ✅ Defer od razu
+    if (!interaction.replied && !interaction.deferred) {
+      await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+    }
+
+    // Uruchomienie muzyki w tle
     playAndLeave(targetChannel, path.join(COM_DIR, chosenFile));
-    if (interaction.replied || interaction.deferred) return;
-    await interaction.deferReply({ flags: MessageFlags.Ephemeral });
+
+    // Wyślij follow-up po rozpoczęciu odtwarzania
     await interaction.followUp({
-      content: `🎵 Odtwarzam **${track}** na serwerze **${guild}**`,
+      content: `🎵 Odtworzyłem **${trackName}** na serwerze **${guildName}**`,
       flags: MessageFlags.Ephemeral
     });
   }
