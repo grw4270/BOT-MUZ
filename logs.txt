@@ -1,0 +1,516 @@
+=== LOG START ===
+[2025-10-12 00:54:04] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 00:54:04] 📂 Folder muzyki: /app/music
+[2025-10-12 00:54:04] 💡 Wpisz "unmute" w konsoli, aby odmutować bota (jeśli został zmutowany).
+[2025-10-12 00:54:15] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:54:15] 🎵 Odtwarzanie: default.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:54:15] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:54:15] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:54:15] 🎵 Odtwarzanie: default.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:54:15] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:54:30] 🛑 Odtwarzanie zakończone — rozłączanie (EKIPA FRYZA)
+[2025-10-12 00:54:35] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:54:35] 🎵 Odtwarzanie: default.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:54:35] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:54:35] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:54:35] 🎵 Odtwarzanie: default.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:54:35] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:54:50] 🛑 Odtwarzanie zakończone — rozłączanie (EKIPA FRYZA)
+[2025-10-12 00:57:41] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 00:57:41] 📂 Folder muzyki: /app/music
+[2025-10-12 00:57:41] 💡 Wpisz "unmute" w konsoli, aby odmutować bota (jeśli został zmutowany).
+[2025-10-12 00:57:49] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:57:49] 🎵 Odtwarzanie: default.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:57:49] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:57:49] 🎵 Odtwarzanie: default.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:57:49] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:57:49] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:57:49] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:57:49] 🎵 Odtwarzanie: default.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:57:49] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:57:49] 🎵 Odtwarzanie: default.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:57:49] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:57:49] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:57:53] ℹ️ Bot nie jest zmutowany na serwerze: Serwer dadiego
+[2025-10-12 00:57:53] 🔊 Bot został odmutowany na serwerze: EKIPA FRYZA
+[2025-10-12 00:57:53] ℹ️ Bot nie jest zmutowany na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 00:57:53] ℹ️ Bot nie jest zmutowany na serwerze: Rockecik
+[2025-10-12 00:58:04] 🛑 Odtwarzanie zakończone — rozłączanie (EKIPA FRYZA)
+[2025-10-12 00:58:12] 👋 Pierwszy użytkownik: badger0052 na #Ogólne (serwer: Rockecik)
+[2025-10-12 00:58:12] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 00:58:12] 👋 Pierwszy użytkownik: badger0052 na #Ogólne (serwer: Rockecik)
+[2025-10-12 00:58:12] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 00:58:12] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 00:58:12] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 00:58:12] 👋 Pierwszy użytkownik: MUZ#7525 na #Ogólne (serwer: Rockecik)
+[2025-10-12 00:58:12] 👋 Pierwszy użytkownik: MUZ#7525 na #Ogólne (serwer: Rockecik)
+[2025-10-12 00:58:12] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 00:58:12] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 00:58:12] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 00:58:12] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 00:58:14] ℹ️ Bot nie jest zmutowany na serwerze: Serwer dadiego
+[2025-10-12 00:58:14] ℹ️ Bot nie jest zmutowany na serwerze: EKIPA FRYZA
+[2025-10-12 00:58:14] ℹ️ Bot nie jest zmutowany na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 00:58:14] 🔊 Bot został odmutowany na serwerze: Rockecik
+[2025-10-12 00:58:27] 🛑 Odtwarzanie zakończone — rozłączanie (Rockecik)
+[2025-10-12 00:59:21] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:59:21] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:59:21] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:59:21] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:59:21] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:59:21] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:59:21] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:59:21] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:59:21] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:59:21] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:59:21] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:59:21] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:59:33] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:59:33] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 00:59:33] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:59:33] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 00:59:33] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 00:59:33] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:02:00] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:02:00] 📂 Folder muzyki: /app/music
+[2025-10-12 01:02:00] 💡 Wpisz "unmute" w konsoli, aby odmutować bota (jeśli został zmutowany).
+[2025-10-12 01:02:10] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:02:10] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:02:10] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:02:10] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:02:10] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:02:10] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:02:21] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:02:21] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:02:21] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:02:21] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:02:21] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:02:21] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:02:25] 👋 Pierwszy użytkownik: badger0052 na #Ogólne (serwer: Rockecik)
+[2025-10-12 01:02:25] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 01:02:25] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:02:25] 👋 Pierwszy użytkownik: MUZ#7525 na #Ogólne (serwer: Rockecik)
+[2025-10-12 01:02:25] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 01:02:25] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:02:28] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:02:28] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:02:28] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:02:38] 👋 Pierwszy użytkownik: badger0052 na #Ogólne (serwer: Rockecik)
+[2025-10-12 01:02:38] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 01:02:38] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:02:48] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:02:48] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:02:48] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:02:52] 🛑 Odtwarzanie zakończone — rozłączanie (Rockecik)
+[2025-10-12 01:03:00] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:03:00] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:03:00] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:03:00] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:03:00] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:03:00] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:03:07] 👋 Pierwszy użytkownik: badger0052 na #Ogólne (serwer: Rockecik)
+[2025-10-12 01:03:07] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 01:03:07] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:03:07] 👋 Pierwszy użytkownik: MUZ#7525 na #Ogólne (serwer: Rockecik)
+[2025-10-12 01:03:07] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 01:03:07] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:03:22] 🛑 Odtwarzanie zakończone — rozłączanie (Rockecik)
+[2025-10-12 01:03:37] 🛑 Odtwarzanie zakończone — rozłączanie (EKIPA FRYZA)
+[2025-10-12 01:10:27] 👋 Pierwszy użytkownik: badger0052 na #Ogólne (serwer: Serwer użytkownika Człowiek)
+[2025-10-12 01:10:27] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek (831070334882545665)
+[2025-10-12 01:10:27] ▶️ Odtwarzanie rozpoczęte (Serwer użytkownika Człowiek)
+[2025-10-12 01:10:27] 👋 Pierwszy użytkownik: MUZ#7525 na #Ogólne (serwer: Serwer użytkownika Człowiek)
+[2025-10-12 01:10:27] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek (831070334882545665)
+[2025-10-12 01:10:27] ▶️ Odtwarzanie rozpoczęte (Serwer użytkownika Człowiek)
+[2025-10-12 01:10:33] 👋 Pierwszy użytkownik: badger0052 na #ttt (serwer: Serwer dadiego)
+[2025-10-12 01:10:33] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer dadiego (712219164345106495)
+[2025-10-12 01:10:33] ▶️ Odtwarzanie rozpoczęte (Serwer dadiego)
+[2025-10-12 01:10:33] 👋 Pierwszy użytkownik: MUZ#7525 na #ttt (serwer: Serwer dadiego)
+[2025-10-12 01:10:33] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer dadiego (712219164345106495)
+[2025-10-12 01:10:33] ▶️ Odtwarzanie rozpoczęte (Serwer dadiego)
+[2025-10-12 01:10:42] 🛑 Odtwarzanie zakończone — rozłączanie (Serwer użytkownika Człowiek)
+[2025-10-12 01:10:48] 🛑 Odtwarzanie zakończone — rozłączanie (Serwer dadiego)
+[2025-10-12 01:11:16] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:11:16] 📂 Folder muzyki: /app/music
+[2025-10-12 01:11:16] 💡 Wpisz "unmute" w konsoli, aby odmutować bota (jeśli został zmutowany).
+[2025-10-12 01:11:21] ℹ️ Bot nie jest zmutowany na serwerze: Serwer dadiego
+[2025-10-12 01:11:21] ℹ️ Bot nie jest zmutowany na serwerze: EKIPA FRYZA
+[2025-10-12 01:11:21] ℹ️ Bot nie jest zmutowany na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 01:11:21] ℹ️ Bot nie jest zmutowany na serwerze: Rockecik
+[2025-10-12 01:17:15] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:17:15] Utworzono katalog: /app/music/712219164345106495
+[2025-10-12 01:17:15] Utworzono katalog: /app/music/831070334882545665
+[2025-10-12 01:17:15] Zaktualizowano serwery.txt
+[2025-10-12 01:17:15] Bot gotowy. Komendy konsolowe: unmute [guildId], mute [guildId], reload, status, say [guildId] <tekst>
+[2025-10-12 01:17:34] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:17:34] Zaktualizowano serwery.txt
+[2025-10-12 01:17:34] Bot gotowy. Komendy konsolowe: unmute [guildId], mute [guildId], reload, status, say [guildId] <tekst>
+[2025-10-12 01:18:04] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:18:04] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA (788356942782267412)
+[2025-10-12 01:18:04] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:18:04] 👋 Pierwszy użytkownik: MUZ#7525 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:18:04] Bot już jest połączony na serwerze EKIPA FRYZA — pomijam połączenie.
+[2025-10-12 01:18:08] 👋 Pierwszy użytkownik: badger0052 na #Ogólne (serwer: Rockecik)
+[2025-10-12 01:18:08] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik (1286369063425146920)
+[2025-10-12 01:18:08] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:18:08] 👋 Pierwszy użytkownik: MUZ#7525 na #Ogólne (serwer: Rockecik)
+[2025-10-12 01:18:08] Bot już jest połączony na serwerze Rockecik — pomijam połączenie.
+[2025-10-12 01:18:12] 👋 Pierwszy użytkownik: badger0052 na #ttt (serwer: Serwer dadiego)
+[2025-10-12 01:18:12] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer dadiego (712219164345106495)
+[2025-10-12 01:18:12] ▶️ Odtwarzanie rozpoczęte (Serwer dadiego)
+[2025-10-12 01:18:12] 👋 Pierwszy użytkownik: MUZ#7525 na #ttt (serwer: Serwer dadiego)
+[2025-10-12 01:18:12] Bot już jest połączony na serwerze Serwer dadiego — pomijam połączenie.
+[2025-10-12 01:18:23] 🛑 Odtwarzanie zakończone — rozłączanie (Rockecik)
+[2025-10-12 01:18:24] 👋 Pierwszy użytkownik: badger0052 na #👉walkie-talkie👌 (serwer: EKIPA FRYZA)
+[2025-10-12 01:18:24] Bot już jest połączony na serwerze EKIPA FRYZA — pomijam połączenie.
+[2025-10-12 01:18:27] 🛑 Odtwarzanie zakończone — rozłączanie (Serwer dadiego)
+[2025-10-12 01:18:41] 🛑 Odtwarzanie zakończone — rozłączanie (EKIPA FRYZA)
+[2025-10-12 01:19:18] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:19:18] Zaktualizowano serwery.txt
+[2025-10-12 01:19:18] Bot gotowy. Komendy konsolowe: unmute [guildId], mute [guildId], reload, status, say [guildId] <tekst>
+[2025-10-12 01:19:53] Wysłano wiadomość na Serwer dadiego: [2025-10-12 01:19:53] ss
+✅ Zalogowano jako MUZ#7525
+Zaktualizowano serwery.txt i foldery muzyczne.
+Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, status, say <guildId> <channelId> <tekst>
+🎵 Odtwarzanie: woman-moaning-in-frustration-tomas-herudek-4-4-00-03.mp3 na serwerze: Rockecik
+🛑 Odtwarzanie zakończone (Rockecik)
+🎵 Odtwarzanie: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3 na serwerze: Rockecik
+🛑 Odtwarzanie zakończone (Rockecik)
+🎵 Odtwarzanie: groan-male-dan-barracuda-2-2-00-04.mp3 na serwerze: Rockecik
+🛑 Odtwarzanie zakończone (Rockecik)
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+🛑 Odtwarzanie zakończone (Serwer dadiego)
+🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek)
+✅ Zalogowano jako MUZ#7525
+Zaktualizowano serwery.txt i foldery muzyczne.
+Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, reload audio, status, say <guildId> <channelId> <tekst>
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer użytkownika Człowiek
+🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek)
+✅ Zalogowano jako MUZ#7525
+Zaktualizowano serwery.txt i foldery muzyczne.
+Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, reload audio, status, say <guildId> <channelId> <tekst>
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer użytkownika Człowiek
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer użytkownika Człowiek
+Błąd odmutowania: Missing Permissions
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+Błąd odmutowania: Missing Permissions
+🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek)
+🛑 Odtwarzanie zakończone (Serwer dadiego)
+✅ Zalogowano jako MUZ#7525
+Zaktualizowano serwery.txt i foldery muzyczne.
+Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, reload audio, status, say <guildId> <channelId> <tekst>
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+✅ Zalogowano jako MUZ#7525
+Zaktualizowano serwery.txt i foldery muzyczne.
+Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, reload audio, status, say <guildId> <channelId> <tekst>
+Brak guildId i aktywnego odtwarzania
+🛑 Odtwarzanie zakończone (Serwer dadiego)
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer użytkownika Człowiek
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer użytkownika Człowiek
+Błąd odmutowania: Missing Permissions
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+Błąd odmutowania: Missing Permissions
+🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek)
+🎵 Odtwarzanie: groan-male-dan-barracuda-2-2-00-04.mp3 na serwerze: Rockecik
+🎵 Odtwarzanie: groan-male-dan-barracuda-2-2-00-04.mp3 na serwerze: Rockecik
+🛑 Odtwarzanie zakończone (Rockecik)
+🎵 Odtwarzanie: woman-moaning-in-frustration-tomas-herudek-4-4-00-03.mp3 na serwerze: Rockecik
+🛑 Odtwarzanie zakończone (Rockecik)
+🛑 Odtwarzanie zakończone (EKIPA FRYZA)
+[2025-10-12 01:49:31] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:49:31] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 01:49:31] Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, reload audio, status, say <guildId> <channelId> <tekst>
+[2025-10-12 01:49:34] 🎵 Odtwarzanie: groan-male-dan-barracuda-2-2-00-04.mp3 na serwerze: Rockecik
+[2025-10-12 01:49:34] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:49:39] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 01:49:40] 🎵 Odtwarzanie: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3 na serwerze: Rockecik
+[2025-10-12 01:49:40] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:49:46] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 01:49:46] ▶️ Odtwarzanie rozpoczęte (Serwer użytkownika Człowiek)
+[2025-10-12 01:49:47] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 01:50:00] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 01:50:14] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:50:14] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 01:50:14] Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, reload audio, status, say <guildId> <channelId> <tekst>
+[2025-10-12 01:50:18] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 01:50:18] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 01:50:18] ▶️ Odtwarzanie rozpoczęte (Serwer użytkownika Człowiek)
+[2025-10-12 01:50:19] ▶️ Odtwarzanie rozpoczęte (Serwer użytkownika Człowiek)
+[2025-10-12 01:50:21] 🔊 Unmute globalny: success 0, fail 1
+[2025-10-12 01:50:33] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 01:52:19] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 01:52:19] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 01:52:19] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:52:19] ▶️ Odtwarzanie rozpoczęte (EKIPA FRYZA)
+[2025-10-12 01:52:55] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 01:52:55] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 01:52:55] ▶️ Odtwarzanie rozpoczęte (Serwer dadiego)
+[2025-10-12 01:52:55] ▶️ Odtwarzanie rozpoczęte (Serwer dadiego)
+[2025-10-12 01:52:58] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik
+[2025-10-12 01:52:58] 🎵 Odtwarzanie: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3 na serwerze: Rockecik
+[2025-10-12 01:52:58] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:52:58] ▶️ Odtwarzanie rozpoczęte (Rockecik)
+[2025-10-12 01:53:05] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 01:53:32] 🛑 Odtwarzanie zakończone (Serwer dadiego) — rozłączanie
+[2025-10-12 01:54:44] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:54:44] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 01:54:44] Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, reload audio, status, say <guildId> <channelId> <tekst>, inspect [guildId]
+[2025-10-12 01:54:50] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 01:54:50] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 01:54:50] Bot gotowy. Komendy: unmute [guildId], mute [guildId], reload, reload audio, status, say <guildId> <channelId> <tekst>, inspect [guildId]
+[2025-10-12 01:54:55] INSPECT RESULT:
+[
+  {
+    "guildId": "712219164345106495",
+    "guildName": "Serwer dadiego",
+    "inChannel": false,
+    "channelId": null,
+    "channelName": null,
+    "serverMute": false,
+    "serverDeaf": false,
+    "hasAdmin": true,
+    "hasMuteMembers": true,
+    "channelPerms": "N/A"
+  },
+  {
+    "guildId": "788356942782267412",
+    "guildName": "EKIPA FRYZA",
+    "inChannel": false,
+    "channelId": null,
+    "channelName": null,
+    "serverMute": false,
+    "serverDeaf": false,
+    "hasAdmin": true,
+    "hasMuteMembers": true,
+    "channelPerms": "N/A"
+  },
+  {
+    "guildId": "831070334882545665",
+    "guildName": "Serwer użytkownika Człowiek",
+    "inChannel": false,
+    "channelId": null,
+    "channelName": null,
+    "serverMute": false,
+    "serverDeaf": false,
+    "hasAdmin": false,
+    "hasMuteMembers": false,
+    "channelPerms": "N/A"
+  },
+  {
+    "guildId": "1286369063425146920",
+    "guildName": "Rockecik",
+    "inChannel": false,
+    "channelId": null,
+    "channelName": null,
+    "serverMute": false,
+    "serverDeaf": false,
+    "hasAdmin": true,
+    "hasMuteMembers": true,
+    "channelPerms": "N/A"
+  }
+]
+[2025-10-12 01:55:12] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 01:55:12] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer dadiego
+[2025-10-12 01:55:20] 🔊 Unmute globalny: success 1, fail 0
+[2025-10-12 01:55:26] 🛑 Odtwarzanie zakończone (Serwer dadiego) — rozłączanie
+[2025-10-12 01:55:29] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 01:55:29] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 01:55:32] 🔊 Unmute globalny: success 1, fail 0
+[2025-10-12 01:55:39] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer dadiego
+[2025-10-12 01:55:42] 🎵 Odtwarzanie: woman-moaning-in-frustration-tomas-herudek-4-4-00-03.mp3 na serwerze: Rockecik
+[2025-10-12 01:55:42] 🎵 Odtwarzanie: woman-moaning-in-frustration-tomas-herudek-4-4-00-03.mp3 na serwerze: Rockecik
+[2025-10-12 01:55:46] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 01:55:46] 🎵 Odtwarzanie: groan-male-dan-barracuda-2-2-00-04.mp3 na serwerze: Rockecik
+[2025-10-12 01:55:51] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 01:55:54] 🛑 Odtwarzanie zakończone (Serwer dadiego) — rozłączanie
+[2025-10-12 01:56:06] 🛑 Odtwarzanie zakończone (EKIPA FRYZA) — rozłączanie
+[2025-10-12 02:01:35] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 02:01:35] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 02:01:35] Bot gotowy. Komendy: /mute, /unmute, /reload, /status, /inspect lub użycie prefiksu w DM
+[2025-10-12 02:02:13] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:02:50] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 02:04:10] 🎵 Odtwarzanie: woman-moaning-in-frustration-tomas-herudek-4-4-00-03.mp3 na serwerze: Rockecik
+[2025-10-12 02:04:14] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 02:04:20] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:04:32] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 02:04:32] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 02:04:32] Bot gotowy. Komendy: /mute, /unmute, /reload, /status, /inspect lub użycie prefiksu w DM
+[2025-10-12 02:04:57] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 02:05:02] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer dadiego
+[2025-10-12 02:05:02] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 02:05:39] 🛑 Odtwarzanie zakończone (Serwer dadiego) — rozłączanie
+[2025-10-12 02:06:06] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:06:06] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:06:21] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 02:06:25] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:06:38] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 02:06:40] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 02:07:16] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 02:07:16] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 02:07:16] Bot gotowy. Komendy: /mute, /unmute, /reload, /status, /inspect lub użycie prefiksu w DM
+[2025-10-12 02:07:39] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer dadiego
+[2025-10-12 02:07:54] 🛑 Odtwarzanie zakończone (Serwer dadiego) — rozłączanie
+[2025-10-12 02:08:06] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 02:08:06] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 02:08:06] Bot gotowy. Komendy: /mute, /unmute, /reload, /status, /inspect lub użycie prefiksu w DM
+[2025-10-12 02:11:09] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 02:11:09] Foldery muzyczne i serwery.txt zainicjalizowane.
+[2025-10-12 02:11:09] Bot gotowy. Komendy: .mute, .unmute, .reload, .status, .inspect, .say
+[2025-10-12 02:11:51] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 02:12:28] 🛑 Odtwarzanie zakończone (Serwer dadiego) — rozłączanie
+[2025-10-12 02:12:30] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 02:12:30] Foldery muzyczne i serwery.txt zainicjalizowane.
+[2025-10-12 02:12:30] Bot gotowy. Komendy: .mute, .unmute, .reload, .status, .inspect, .say
+[2025-10-12 02:15:21] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 02:15:21] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 02:15:21] Bot gotowy. Komendy w konsoli: unmute, status, reload. W DM: unmute, status.
+[2025-10-12 02:16:26] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 02:16:26] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 02:16:26] Bot gotowy. Komendy w konsoli: unmute, status, reload. W DM: unmute, status.
+[2025-10-12 02:16:31] --- STATUS ---
+[2025-10-12 02:16:31] Brak aktywnych połączeń głosowych.
+[2025-10-12 02:16:31] --- END STATUS ---
+[2025-10-12 02:16:36] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:16:43] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 02:16:43] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 02:16:47] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:16:50] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:16:50] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:16:54] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:17:05] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 02:17:21] 🛑 Odtwarzanie zakończone (Serwer dadiego) — rozłączanie
+[2025-10-12 02:17:25] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:17:26] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:17:30] --- STATUS ---
+[2025-10-12 02:17:30] Serwer: 831070334882545665 | Kanał: 831070335344443392 | Plik: 788356942782267412.mp3
+[2025-10-12 02:17:30] --- END STATUS ---
+[2025-10-12 02:17:34] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:17:39] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 02:17:41] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 02:17:41] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 02:17:45] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:17:48] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 02:17:51] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:17:58] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:18:03] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 02:18:18] 🛑 Odtwarzanie zakończone (EKIPA FRYZA) — rozłączanie
+[2025-10-12 02:18:33] 🎵 Odtwarzanie: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3 na serwerze: Rockecik
+[2025-10-12 02:18:33] 🎵 Odtwarzanie: woman-moaning-in-frustration-tomas-herudek-4-4-00-03.mp3 na serwerze: Rockecik
+[2025-10-12 02:18:37] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 02:18:39] 🎵 Odtwarzanie: woman-moaning-in-frustration-tomas-herudek-4-4-00-03.mp3 na serwerze: Rockecik
+[2025-10-12 02:18:42] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 02:18:44] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik
+[2025-10-12 02:18:59] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 02:19:01] 🎵 Odtwarzanie: woman-moaning-in-frustration-tomas-herudek-4-4-00-03.mp3 na serwerze: Rockecik
+[2025-10-12 02:19:05] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 02:19:05] 🎵 Odtwarzanie: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3 na serwerze: Rockecik
+[2025-10-12 02:19:12] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 02:19:17] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 02:19:24] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:19:26] --- STATUS ---
+[2025-10-12 02:19:26] Serwer: 831070334882545665 | Kanał: 831070335344443392 | Plik: 788356942782267412.mp3
+[2025-10-12 02:19:26] Serwer: 1286369063425146920 | Kanał: 1286369063982862339 | Plik: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3
+[2025-10-12 02:19:26] Serwer: 788356942782267412 | Kanał: 788356942782267416 | Plik: 788356942782267412.mp3
+[2025-10-12 02:19:26] --- END STATUS ---
+[2025-10-12 02:19:54] 🛑 Odtwarzanie zakończone (EKIPA FRYZA) — rozłączanie
+[2025-10-12 02:20:06] Dodano do serwery.txt: 1426756227299414191 - Serwer użytkownika Badger
+[2025-10-12 02:20:09] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Badger
+[2025-10-12 02:20:09] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Badger
+[2025-10-12 02:20:24] 🛑 Odtwarzanie zakończone (Serwer użytkownika Badger) — rozłączanie
+[2025-10-12 02:20:38] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Badger
+[2025-10-12 02:20:43] 🔊 Bot odmutowany globalnie
+[2025-10-12 02:20:44] --- STATUS ---
+[2025-10-12 02:20:44] Serwer: 831070334882545665 | Kanał: 831070335344443392 | Plik: 788356942782267412.mp3
+[2025-10-12 02:20:44] Serwer: 1286369063425146920 | Kanał: 1286369063982862339 | Plik: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3
+[2025-10-12 02:20:44] Serwer: 1426756227299414191 | Kanał: 1426756228297654275 | Plik: default.mp3
+[2025-10-12 02:20:44] --- END STATUS ---
+[2025-10-12 02:20:53] 🛑 Odtwarzanie zakończone (Serwer użytkownika Badger) — rozłączanie
+[2025-10-12 12:27:34] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 12:28:11] 🛑 Odtwarzanie zakończone (EKIPA FRYZA) — rozłączanie
+[2025-10-12 14:29:51] 🎵 Odtwarzanie: default.mp3 na serwerze: Rockecik
+[2025-10-12 14:30:06] 🛑 Odtwarzanie zakończone (Rockecik) — rozłączanie
+[2025-10-12 14:32:02] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 14:32:39] 🛑 Odtwarzanie zakończone (EKIPA FRYZA) — rozłączanie
+[2025-10-12 14:54:38] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 14:54:38] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 14:54:38] Bot gotowy. Komendy w konsoli: unmute, status, reload. W DM: unmute, status.
+[2025-10-12 14:54:38] ✅ Zarejestrowano komendy slash.
+[2025-10-12 14:55:30] 🔊 Bot odmutowany przez slash command.
+[2025-10-12 14:55:43] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 14:55:50] 🔊 Bot odmutowany przez slash command.
+[2025-10-12 14:55:56] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: Serwer dadiego
+[2025-10-12 14:56:00] 🎵 Odtwarzanie: default.mp3 na serwerze: Serwer użytkownika Człowiek
+[2025-10-12 14:56:10] 🔊 Bot odmutowany przez slash command.
+[2025-10-12 14:56:15] 🛑 Odtwarzanie zakończone (Serwer użytkownika Człowiek) — rozłączanie
+[2025-10-12 14:56:19] 🛑 Odtwarzanie zakończone (EKIPA FRYZA) — rozłączanie
+[2025-10-12 14:56:33] 🛑 Odtwarzanie zakończone (Serwer dadiego) — rozłączanie
+[2025-10-12 14:57:02] 🎵 Odtwarzanie: 788356942782267412.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 14:57:39] 🛑 Odtwarzanie zakończone (EKIPA FRYZA) — rozłączanie
+[2025-10-12 15:10:36] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 15:10:36] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 15:10:36] Bot gotowy. Komendy w konsoli: unmute, status, reload. W DM: unmute, status.
+[2025-10-12 15:10:36] ✅ Zarejestrowano komendy slash.
+[2025-10-12 15:10:57] 🎵 Odtwarzanie: gryfin.mp3 na serwerze: Serwer użytkownika Badger
+[2025-10-12 15:11:13] 🛑 Odtwarzanie zakończone (Serwer użytkownika Badger) — rozłączanie
+[2025-10-12 15:13:01] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 15:13:01] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 15:13:01] Bot gotowy. Komendy w konsoli: unmute, status, reload. W DM: unmute, status.
+[2025-10-12 15:13:01] ✅ Zarejestrowano komendy slash.
+[2025-10-12 15:13:21] 🎵 Odtwarzanie: afgan.mp3 na serwerze: Serwer użytkownika Badger
+[2025-10-12 15:13:57] 🛑 Odtwarzanie zakończone (Serwer użytkownika Badger) — rozłączanie
+[2025-10-12 15:14:01] 🔊 Bot odmutowany przez slash command.
+[2025-10-12 15:19:15] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 15:19:15] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 15:19:15] Bot gotowy. Komendy w konsoli: unmute, status, reload. W DM: unmute, status.
+[2025-10-12 15:20:16] 🎵 Odtwarzanie: afgan.mp3 na serwerze: Serwer użytkownika Badger
+[2025-10-12 15:20:53] 🛑 Odtwarzanie zakończone (Serwer użytkownika Badger) — rozłączanie
+[2025-10-12 15:40:23] 🎵 Odtwarzanie: afgan.mp3 na serwerze: Serwer użytkownika Badger
+[2025-10-12 15:41:00] 🛑 Odtwarzanie zakończone (Serwer użytkownika Badger) — rozłączanie
+[2025-10-12 15:41:03] Client error: The reply to this interaction has not been sent or deferred.
+[2025-10-12 15:41:13] Client error: The reply to this interaction has not been sent or deferred.
+[2025-10-12 15:41:21] Client error: The reply to this interaction has not been sent or deferred.
+[2025-10-12 15:46:06] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 15:46:06] Komendy: /ping /status /unmute /play
+[2025-10-12 15:55:59] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 15:55:59] 📁 Foldery i plik serwery.txt zaktualizowane.
+[2025-10-12 15:55:59] Bot gotowy. Komendy: /ping /status /unmute /play
+[2025-10-12 15:56:40] 🎶 /play → gryfin.mp3 (Serwer użytkownika Badger)
+[2025-10-12 15:57:14] 🎵 Odtwarzanie: afgan.mp3 na serwerze EKIPA FRYZA
+[2025-10-12 15:57:51] 🛑 Zakończono odtwarzanie na EKIPA FRYZA
+[2025-10-12 15:57:59] 🎵 Odtwarzanie: groan-male-dan-barracuda-2-2-00-04.mp3 na serwerze Rockecik
+[2025-10-12 15:58:04] 🛑 Zakończono odtwarzanie na Rockecik
+[2025-10-12 15:58:08] 🎵 Odtwarzanie: groan-male-dan-barracuda-2-2-00-04.mp3 na serwerze Rockecik
+[2025-10-12 15:58:13] 🛑 Zakończono odtwarzanie na Rockecik
+[2025-10-12 15:58:17] 🎵 Odtwarzanie: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3 na serwerze Rockecik
+[2025-10-12 15:58:23] 🛑 Zakończono odtwarzanie na Rockecik
+[2025-10-12 15:58:26] 🎵 Odtwarzanie: breathing-in-pain-male-gfx-sounds-fast-2-00-06.mp3 na serwerze Rockecik
+[2025-10-12 15:58:33] 🛑 Zakończono odtwarzanie na Rockecik
+[2025-10-12 15:58:33] 🎵 Odtwarzanie: groan-male-dan-barracuda-2-2-00-04.mp3 na serwerze Rockecik
+[2025-10-12 15:58:39] 🛑 Zakończono odtwarzanie na Rockecik
+[2025-10-12 15:59:33] 🎵 Odtwarzanie: afgan.mp3 na serwerze Serwer dadiego
+[2025-10-12 16:00:10] 🛑 Zakończono odtwarzanie na Serwer dadiego
+[2025-10-12 16:02:49] 🎵 Odtwarzanie: afgan.mp3 na serwerze Serwer dadiego
+[2025-10-12 16:03:26] 🛑 Zakończono odtwarzanie na Serwer dadiego
+[2025-10-12 16:03:28] 🎵 Odtwarzanie: gryfin.mp3 na serwerze Serwer dadiego
+[2025-10-12 16:36:12] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 16:40:48] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 16:45:23] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 16:45:23] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 16:45:23] Bot gotowy. Komendy w konsoli: unmute, status, reload. W DM: unmute, status.
+[2025-10-12 16:45:41] 🎵 Odtwarzanie: afgan.mp3 na serwerze: Serwer użytkownika Badger
+[2025-10-12 16:46:18] 🛑 Odtwarzanie zakończone (Serwer użytkownika Badger) — rozłączanie
+[2025-10-12 16:47:18] 🎵 Odtwarzanie: afgan.mp3 na serwerze: EKIPA FRYZA
+[2025-10-12 16:47:55] 🛑 Odtwarzanie zakończone (EKIPA FRYZA) — rozłączanie
+[2025-10-12 17:18:23] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 17:18:23] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 17:18:23] Bot gotowy. Komendy w konsoli: unmute, status, reload. W DM: unmute, status.
+[2025-10-12 17:21:07] 🔊 Bot odmutowany przez slash command.
+[2025-10-12 17:31:51] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 17:31:51] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 17:31:51] Client error: loadCommands is not a function
+[2025-10-12 17:33:04] ✅ Zalogowano jako MUZ#7525
+[2025-10-12 17:33:04] Zaktualizowano serwery.txt i foldery muzyczne.
+[2025-10-12 17:33:04] Client error: loadCommands is not a function
