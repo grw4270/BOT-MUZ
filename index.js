@@ -375,3 +375,13 @@ client.on('interactionCreate', async interaction => {
 });
 
 client.login(TOKEN);
+
+client.on('error', (err) => {
+  console.error('Client error:', err);
+});
+process.on('unhandledRejection', (reason, p) => {
+  console.error('Unhandled Rejection at:', p, 'reason:', reason);
+});
+process.on('uncaughtException', (err) => {
+  console.error('Uncaught Exception:', err);
+});
