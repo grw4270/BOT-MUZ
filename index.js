@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: '../.env' });
 // Zmieniamy import fs na asynchroniczną wersję promises
 const fs = require('fs/promises'); 
 const fsSync = require('fs'); // Pozostawiamy synchroniczną wersję dla operacji, które muszą działać przed inicjalizacją
@@ -15,8 +15,8 @@ const readline = require('readline');
 const { Client, GatewayIntentBits } = require('discord.js');
 const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayerStatus, NoSubscriberBehavior, getVoiceConnection } = require('@discordjs/voice');
 
-const TOKEN = process.env.DISCORD_TOKEN;
-const ALLOWED_USER_ID = process.env.ALLOWED_USER_ID; // ID użytkownika, który może używać komend
+const TOKEN = process.env.BOT_TOKEN;
+const ALLOWED_USER_ID = process.env.OWNER_ID; // ID użytkownika, który może używać komend
 
 const MUSIC_DIR = path.join(__dirname, 'music');
 const DEFAULT_DIR = path.join(MUSIC_DIR, 'default');
