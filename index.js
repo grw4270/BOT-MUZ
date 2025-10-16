@@ -4,6 +4,7 @@ const fs = require('fs/promises');
 const fsSync = require('fs'); // Pozostawiamy synchroniczną wersję dla operacji, które muszą działać przed inicjalizacją
 
 const { Partials, Events, InteractionType, MessageFlags } = require('discord.js');
+// Wymuszenie IPv4 i WebSocket dla stabilności połączeń głosowych
 process.env.DISCORDJS_VOICE_FORCE_WS = "true";
 process.env.FORCE_IPV4 = "true";
 
@@ -11,11 +12,11 @@ process.env.FORCE_IPV4 = "true";
 const { REST, Routes, SlashCommandBuilder } = require('discord.js');
 const path = require('path');
 const readline = require('readline');
-const { Client, GatewayIntentBits, ActionRowBuilder, StringSelectMenuBuilder, ComponentType } = require('discord.js');
+const { Client, GatewayIntentBits } = require('discord.js');
 const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayerStatus, NoSubscriberBehavior, getVoiceConnection } = require('@discordjs/voice');
 
 const TOKEN = process.env.DISCORD_TOKEN;
-const ALLOWED_USER_ID = process.env.ALLOWED_USER_ID; 
+const ALLOWED_USER_ID = process.env.ALLOWED_USER_ID; // ID użytkownika, który może używać komend
 
 const MUSIC_DIR = path.join(__dirname, 'music');
 const DEFAULT_DIR = path.join(MUSIC_DIR, 'default');
@@ -34,7 +35,7 @@ const client = new Client({
 const connectionMap = new Map();
 const initializing = { done: false };
 
-// ===== HELPERY =====
+// ===== HELPERY I NARZĘDZIA SYNC =====
 // Używamy wersji synchronicznej, bo często jest wywoływana na wczesnym etapie ładowania.
 function ensureDir(dir) { if (!fsSync.existsSync(dir)) fsSync.mkdirSync(dir, { recursive: true }); }
 
@@ -52,18 +53,17 @@ function pickRandomAudioFromDir(dir) {
 }
 
 
-// ===== AKTUALIZACJA KOMEND (SLASH COMMANDS) - UŻYWA WERSJI ASYNCHRONICZNEJ =====
+// ===== AKTUALIZACJA KOMEND (SLASH COMMANDS) - ASYNCHRONICZNIE =====
 async function updateSlashCommands() {
   try {
     const rest = new REST({ version: '10' }).setToken(TOKEN);
     
-    // === Czytamy serwery z serwery.txt (ASYNCHRONICZNIE) ===
+    // ASYNCHRONICZNY odczyt plików, by nie blokować wątku
     let servers = [];
     if (fsSync.existsSync(SERVERS_FILE)) {
       servers = (await fs.readFile(SERVERS_FILE, 'utf8')).split('\n').filter(Boolean);
     }
 
-    // === Czytamy pliki audio z /com (ASYNCHRONICZNIE) ===
     let files = [];
     if (fsSync.existsSync(COM_DIR)) {
       files = (await fs.readdir(COM_DIR)).filter(f => /\.(mp3|wav|m4a|ogg|flac)$/i.test(f));
@@ -103,36 +103,12 @@ async function updateSlashCommands() {
   }
 }
 
-// === Obsługa usunięcia bota z serwera (ASYNCHRONICZNIE) ===
-client.on('guildDelete', async guild => {
-  const folderName = `${guild.id} - ${guild.name}`;
-  const serverDir = path.join(MUSIC_DIR, folderName);
 
-  if (fsSync.existsSync(serverDir)) {
-    try {
-      await fs.rm(serverDir, { recursive: true, force: true });
-      log(`🗑️ Usunięto folder serwera: ${guild.name}`);
-    } catch (err) { console.error('Błąd usuwania folderu:', err); }
-  }
-
-  if (fsSync.existsSync(SERVERS_FILE)) {
-    try {
-      let servers = (await fs.readFile(SERVERS_FILE, 'utf8')).split('\n').filter(Boolean);
-      const before = servers.length;
-      servers = servers.filter(line => !line.startsWith(guild.id));
-      if (servers.length < before) {
-        await fs.writeFile(SERVERS_FILE, servers.join('\n'), 'utf8');
-        log(`🗑️ Usunięto wpis serwera: ${guild.name}`);
-      }
-    } catch (err) { console.error('Błąd aktualizacji serwery.txt:', err); }
-  }
-
-  updateSlashCommands();
-});
-
-// ===== SYNC / SERWERY I ZARZĄDZANIE FOLDERAMI (ASYNCHRONICZNIE) =====
+// ===== SYNC SERWERÓW (ASYNCHRONICZNIE) =====
 async function syncServers() {
-  ensureDir(MUSIC_DIR); // Używa fsSync
+  ensureDir(MUSIC_DIR); 
+  ensureDir(DEFAULT_DIR);
+  ensureDir(COM_DIR);
   if (!fsSync.existsSync(SERVERS_FILE)) await fs.writeFile(SERVERS_FILE, '', 'utf8');
 
   const currentGuilds = new Map(client.guilds.cache.map(g => [g.id, g.name]));
@@ -159,32 +135,50 @@ async function syncServers() {
   }
 
   // --- Usuń foldery dla nieistniejących serwerów ---
-  const entries = await fs.readdir(MUSIC_DIR, { withFileTypes: true });
-  for (const d of entries) {
-    if (!d.isDirectory()) continue;
-    const [id] = d.name.split(' - ');
-    if (!validIds.has(id) && !['com', 'default'].includes(d.name)) {
-      await fs.rm(path.join(MUSIC_DIR, d.name), { recursive: true, force: true });
-      log(`🗑️ Usunięto folder starego serwera: ${d.name}`);
+  try {
+    const entries = await fs.readdir(MUSIC_DIR, { withFileTypes: true });
+    for (const d of entries) {
+      if (!d.isDirectory()) continue;
+      const [id] = d.name.split(' - ');
+      if (!validIds.has(id) && !['com', 'default'].includes(d.name)) {
+        await fs.rm(path.join(MUSIC_DIR, d.name), { recursive: true, force: true });
+        log(`🗑️ Usunięto folder starego serwera: ${d.name}`);
+      }
     }
+  } catch (e) {
+    console.error('Błąd podczas czyszczenia folderów muzycznych:', e);
   }
 
   await updateSlashCommands();
 }
 
-// ===== GŁÓWNY START BOTA =====
-client.once('ready', async () => {
-  log(`✅ Zalogowano jako ${client.user.tag}`);
-  ensureDir(MUSIC_DIR);
-  ensureDir(DEFAULT_DIR);
-  ensureDir(COM_DIR);
-  if (!fsSync.existsSync(SERVERS_FILE)) await fs.writeFile(SERVERS_FILE, '', 'utf8');
+// ===== ZDARZENIA SERWERÓW (ASYNCHRONICZNIE) =====
+client.on('guildDelete', async guild => {
+  const folderName = `${guild.id} - ${guild.name}`;
+  const serverDir = path.join(MUSIC_DIR, folderName);
 
-  await syncServers(); 
-  initializing.done = true;
+  if (fsSync.existsSync(serverDir)) {
+    try {
+      await fs.rm(serverDir, { recursive: true, force: true });
+      log(`🗑️ Usunięto folder serwera: ${guild.name}`);
+    } catch (err) { console.error('Błąd usuwania folderu:', err); }
+  }
+
+  if (fsSync.existsSync(SERVERS_FILE)) {
+    try {
+      let servers = (await fs.readFile(SERVERS_FILE, 'utf8')).split('\n').filter(Boolean);
+      const before = servers.length;
+      servers = servers.filter(line => !line.startsWith(guild.id));
+      if (servers.length < before) {
+        await fs.writeFile(SERVERS_FILE, servers.join('\n'), 'utf8');
+        log(`🗑️ Usunięto wpis serwera: ${guild.name}`);
+      }
+    } catch (err) { console.error('Błąd aktualizacji serwery.txt:', err); }
+  }
+
+  updateSlashCommands();
 });
 
-// === Obsługa dołączenia bota do nowego serwera (ASYNCHRONICZNIE) ===
 client.on('guildCreate', async guild => {
   ensureDir(MUSIC_DIR);
   const folderName = `${guild.id} - ${guild.name}`;
@@ -202,19 +196,24 @@ client.on('guildCreate', async guild => {
 });
 
 
-// ===== KONSOLE (BEZ ZMIAN) =====
-const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
-rl.on('line', async (input) => {
-  const cmd = input.trim().toLowerCase();
-  if (cmd === 'reload') {
-    log('🔄 Przeładowanie komend globalnych...');
-    await updateSlashCommands(); 
-  }
+// ===== GŁÓWNY START BOTA =====
+client.once('ready', async () => {
+  log(`✅ Zalogowano jako ${client.user.tag}`);
+  
+  // Używamy synchronicznych ensureDir tylko na początkowym etapie
+  ensureDir(MUSIC_DIR); 
+  ensureDir(DEFAULT_DIR);
+  ensureDir(COM_DIR);
+  
+  await syncServers(); 
+  initializing.done = true;
 });
+
 
 // ===== ODTWARZANIE AUDIO (BEZ ZMIAN) =====
 function playAndLeave(channel, file) {
   const guildId = channel.guild.id;
+  
   const existingConnection = getVoiceConnection(guildId);
   if (existingConnection) {
     existingConnection.destroy();
@@ -269,19 +268,37 @@ client.on('voiceStateUpdate', (oldState, newState) => {
   }
 });
 
-// ===== OBSŁUGA KOMEND SLASH (Z OPÓŹNIONĄ OBSŁUGĄ BŁĘDU 10062) =====
+// ===== OBSŁUGA KOMEND SLASH (Z ODPORNOŚCIĄ NA BŁĄD 10062) =====
 client.on('interactionCreate', async interaction => {
   if (!interaction.isChatInputCommand()) return; 
 
-  if (interaction.user.id !== ALLOWED_USER_ID) {
-    await interaction.reply({ content: '⛔ Nie masz uprawnień.', ephemeral: true });
-    return;
-  }
-
   const cmd = interaction.commandName;
   
-  // 1. Natychmiastowe odroczenie, aby ZAWSZE zaakceptować interakcję w ciągu 3s
-  await interaction.deferReply({ ephemeral: true }); 
+  // 1. Sprawdzenie uprawnień. Jeśli brak, wysyłamy szybką, jednorazową odpowiedź.
+  if (interaction.user.id !== ALLOWED_USER_ID) {
+    try {
+      await interaction.reply({ content: '⛔ Nie masz uprawnień.', ephemeral: true });
+    } catch (e) {
+      // Jeśli nawet to się nie uda (bo minęło 3s), cicho ignorujemy 10062
+      if (e.code === 10062) return; 
+      console.error('Błąd przy próbie szybkiej odpowiedzi dla nieuprawnionego użytkownika:', e);
+    }
+    return;
+  }
+  
+  // 2. Natychmiastowe odroczenie (deferReply) dla uprawnionych komend. 
+  // To musi być PIERWSZA rzecz dla uprawnionego użytkownika, aby zapobiec 10062.
+  try {
+    await interaction.deferReply({ ephemeral: true }); 
+  } catch (e) {
+    // Jeśli defer nie zadziała (interakcja jest zbyt stara), logujemy i kończymy.
+    if (e.code === 10062) {
+      console.log(`[TIMEOUT] Interakcja dla /${cmd} jest zbyt stara. Zignorowano błąd 10062.`);
+      return; 
+    }
+    console.error('Błąd przy deferReply:', e);
+    return;
+  }
 
   try {
     if (cmd === 'ping') {
@@ -357,14 +374,12 @@ client.on('interactionCreate', async interaction => {
     }
   } catch (error) {
     console.error(`Błąd w komendzie ${cmd}:`, error);
-    // W przypadku błędu (poza 10062, bo już zaakceptowaliśmy interakcję) informujemy użytkownika
-    try {
-      if (interaction.deferred || interaction.replied) {
+    // Informujemy użytkownika o błędzie tylko jeśli interakcja została pomyślnie zaakceptowana (deferred/replied)
+    if (interaction.deferred || interaction.replied) {
+      try {
         await interaction.editReply({ content: `❌ Wystąpił błąd krytyczny podczas wykonywania komendy ${cmd}.`, ephemeral: true });
-      } else {
-        await interaction.reply({ content: `❌ Wystąpił błąd krytyczny podczas wykonywania komendy ${cmd}.`, ephemeral: true });
-      }
-    } catch { /* ignore if reply/edit fails */ }
+      } catch { /* ignore if edit fails */ }
+    }
   }
 });
 
